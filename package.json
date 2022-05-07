@@ -1,0 +1,22 @@
+{
+  "name": "git_hub_self",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i input.css -o ./Public/output.css --watch",
+    "prod": "npx tailwindcss -i input.css -o ./Public/output.css --minify",
+    "server":"vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
